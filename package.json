@@ -1,0 +1,33 @@
+{
+  "name": "is-cli",
+  "version": "1.0.0",
+  "description": "Detect if the current script was ran as a CLI",
+  "author": "silverwind",
+  "repository": "silverwind/is-cli",
+  "license": "BSD-2-Clause",
+  "main": "./index.js",
+  "engines": {
+    "node": ">=10"
+  },
+  "scripts": {
+    "test": "make test"
+  },
+  "keywords": [
+    "cli",
+    "detect",
+    "is-cli"
+  ],
+  "files": [
+    "index.js"
+  ],
+  "devDependencies": {
+    "eslint": "7.0.0",
+    "eslint-config-silverwind": "12.0.0",
+    "jest": "26.0.1",
+    "updates": "10.2.11",
+    "versions": "8.2.7"
+  },
+  "jest": {
+    "verbose": false
+  }
+}
