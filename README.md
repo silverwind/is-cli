@@ -11,7 +11,7 @@ npm i is-cli
 ```
 
 ```js
-const isCLI = require("is-cli")(module);
+const isCLI = require("is-cli")(globalThis.module); // or `global` when running on Node 10
 // => true
 ```
 
