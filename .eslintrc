@@ -1,7 +1,2 @@
 root: true
 extends: silverwind
-
-overrides:
-  - files: ["**/*test.js"]
-    env:
-      jest: true
