@@ -11,8 +11,11 @@ npm i is-cli
 ```
 
 ```js
-const isCLI = require("is-cli")(globalThis.module); // or `global` when running on Node 10
+const isCLI = require("is-cli")(module);
 // => true
 ```
+
+Will throw when `module` is absent.
+
 
 © [silverwind](https://github.com/silverwind), distributed under BSD licence

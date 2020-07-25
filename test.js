@@ -1,10 +1,18 @@
 "use strict";
 
+const isCli = require(".");
+
 test("positive", () => {
-  expect(require(".")(module)).toEqual(true);
+  expect(isCli(module)).toEqual(true);
 });
 
 test("negative", () => {
   const module = require("./fixtures/indirect.js");
-  expect(require(".")(module)).toEqual(false);
+  expect(isCli(module)).toEqual(false);
+});
+
+test("throw", () => {
+  expect(() => {
+    isCli();
+  }).toThrow();
 });
