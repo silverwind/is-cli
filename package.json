@@ -21,11 +21,11 @@
     "index.js"
   ],
   "devDependencies": {
-    "eslint": "7.0.0",
-    "eslint-config-silverwind": "13.1.0",
-    "jest": "26.0.1",
-    "updates": "10.2.11",
-    "versions": "8.2.9"
+    "eslint": "7.5.0",
+    "eslint-config-silverwind": "18.0.1",
+    "jest": "26.1.0",
+    "updates": "10.3.3",
+    "versions": "8.4.2"
   },
   "jest": {
     "verbose": false
