@@ -1,6 +1,6 @@
 {
   "name": "is-cli",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "description": "Detect if the current script was ran as a CLI",
   "author": "silverwind",
   "repository": "silverwind/is-cli",
